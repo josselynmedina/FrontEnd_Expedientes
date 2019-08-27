@@ -1,0 +1,16 @@
+<app-nav-menu></app-nav-menu>
+<div class="row" *ngIf="userClaims">
+    <div class="col s12 m7">
+        <div class="card">
+            <div class="card-content">
+                <span>Username :{{userClaims.UserName}}</span>
+                <br>
+                <span>Email : {{userClaims.Email}}</span>
+                <br>
+                <span>Full Name : {{userClaims.FirstName}} {{userClaims.LastName}}</span>
+                <br>
+                <span>Logged On : {{userClaims.LoggedOn}}</span>
+            </div>
+        </div>
+    </div>
+</div>
